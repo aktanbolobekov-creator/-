@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe — Байланыш</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>☕ Cozy Cafe</h1>
+
+        <nav>
+            <a href="index.html">Башкы бет</a>
+            <a href="menu.html">Меню</a>
+            <a href="contact.html">Байланыш</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Биз менен байланыш</h2>
+        <p>Сизди биздин кафеде күтөбүз!</p>
+
+        <div class="contact-info">
+            <h3>📍 Дарегибиз</h3>
+            <p>Ош шаары, Кыргызстан</p>
+
+            <h3>📞 Телефон</h3>
+            <p><a href="tel:+996700123456">+996 700 123 456</a></p>
+
+            <h3>🕒 Иштөө убактысы</h3>
+            <p>Күн сайын: 09:00 – 22:00</p>
+        </div>
+
+        <h3 class="form-title">Бизге билдирүү жөнөтүңүз</h3>
+
+        <form id="contactForm">
+            <input
+                type="text"
+                id="name"
+                placeholder="Атыңыз"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Электрондук почтаңыз"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Билдирүүңүз"
+                required
+            ></textarea>
+
+            <button type="submit">Жөнөтүү</button>
+
+            <p id="result"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Cozy Cafe | Келгениңиз үчүн рахмат!</p>
+    </footer>
+
+</body>
+</html>
